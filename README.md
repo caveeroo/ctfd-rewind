@@ -17,7 +17,7 @@ Aditionally, CTFd Rewind also allows you to  **export visualization results in m
 
 Clone the repo:
 
-    git clone https://github.com/yourusername/ctfd-rewind.git
+    git clone https://github.com/caveeroo/ctfd-rewind.git
 
 
 To run the tool you will need the backup of the CTFd event.
