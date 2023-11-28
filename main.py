@@ -11,9 +11,9 @@ logging.basicConfig(
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description="Tool to analyze ctf competitions data")
+        description="CTFd Rewind for competition insights")
     parser.add_argument(
-        '--output', choices=['txt', 'json'], required=True, help="Output format")
+        '--output', choices=['txt', 'json'], required=True, help="Output format (json for visualization)")
     parser.add_argument('--dir', default='.',
                         help="Directory containing CTFd export")
     return parser.parse_args()
